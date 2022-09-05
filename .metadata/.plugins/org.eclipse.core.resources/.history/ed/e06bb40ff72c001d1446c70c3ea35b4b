@@ -1,0 +1,15 @@
+package sec1;
+
+public class Oper3 {
+
+	public static void main(String[] args) {
+		//문자열 결합
+		byte a='k', b='i', c='m'; //k에속한 키번호가나옴
+		byte d=a;
+		System.out.println("a="+a);
+		System.out.println("b="+b);
+		System.out.println("c="+c);
+		System.out.println(a+b+c+1004); // a b c가 그곳에 맞는 아스키 코드가 인식 107 105 109
+		System.out.println("kim"+d); //문자열 + 숫자 =문자열
+	}
+}
