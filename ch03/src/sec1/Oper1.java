@@ -15,7 +15,7 @@ public class Oper1 {
 		int a=20, b=30;
 		System.out.println(a); //
 		prt();//제0주소 명령 형식 1,2,3 명령형식 까지
-		c = a + b;
+		c = a+b;
 		//운용방식     : +ab -> pre 전위(fix) order 연산자가 먼저
 		//운용방식2 : ab+ -> post 후위(fix) order 연산자가 나중에
 		//운용방식3 : a+b -> in 중위(fix) order 연산자가 가운데
