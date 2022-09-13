@@ -11,7 +11,7 @@ public class Oper4 {
 		System.out.println("a<b => "+(a<b));	//f
 		System.out.println("a<=b => "+(a<=b));	//f
 		System.out.println("a가 문자열이 맞나? => "+a instanceof String); //t
-		//논리연산  => and&&:둘 다 맞을때만 참 ||or:둘 중 하나만 맞아도 참
+		//논리연산  => and&&:둘 다 맞을때만 참      ||or:둘 중 하나만 맞아도 참
 		
 		//논리연산자(단항연산) => !참거짓을반대로
 		System.out.println("a>b && c>d => "+(a>b && c<d));	//f

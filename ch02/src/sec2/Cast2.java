@@ -11,8 +11,11 @@ public class Cast2 {
 		System.out.println("d="+d);
 		e = 500 / 3.0f; //3 -> 3.0 실수뒤엔 f 형 변환 연산
 		System.out.println("e="+e);
-		System.out.println("byte :"Byte.MIN_VALUE+"~"+Byte.MAX_VALUE);
-		System.out.println("short : "+Short.MIN_VALUE+"~"+SH);
-		
+		System.out.println("byte : "+Byte.MIN_VALUE+"~"+Byte.MAX_VALUE);
+		System.out.println("short : "+Short.MIN_VALUE+"~"+Short.MAX_VALUE);
+		System.out.println("int : "+Integer.MIN_VALUE+"~"+Integer.MAX_VALUE);
+		System.out.println("long : "+Long.MIN_VALUE+"~"+Long.MAX_VALUE);
+		System.out.println("float : "+Float.MIN_VALUE+"~"+Float.MAX_VALUE);
+		System.out.println("double : "+Double.MIN_VALUE+"~"+Double.MAX_VALUE);
 	}
 }

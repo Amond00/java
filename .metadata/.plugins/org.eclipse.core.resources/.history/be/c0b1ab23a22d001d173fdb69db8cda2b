@@ -1,9 +1,0 @@
-package sec1;
-
-public class Opertest {
-	public static void main(String[] args) {
-		int score = 85;
-		String result=(!(SCORE>90))? "가":"나";
-		System.out.println(result);
-	}
-}
