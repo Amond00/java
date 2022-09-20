@@ -3,7 +3,7 @@ package sec3;
 public class print1 {
 
 	public static void main(String[] args) {
-		System.out.print("a"); 		//print와 prinln차이 \n은 한칸 띄우기
+		System.out.print("a"); 		//print 와 println 차이 \n은 한칸 띄우기
 		System.out.print("b\n");
 		System.out.print("\nc\n");
 		//출력 제어 문자
