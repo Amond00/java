@@ -1,0 +1,40 @@
+package sec2;
+
+public class Account {
+	String Accountnum ;
+	String Accounthost;
+	int Balance;
+	int money;
+	public Account() {}
+	public Account(String Accountnum, String Accounthost, int Balance, int money){
+		this.Accountnum = Accountnum; this.Accounthost = Accounthost;
+		this.Balance = Balance; this.money = money;
+	}
+	public String getAccountnum() {
+		return Accountnum;
+	}
+	public void setAccountnum(String accountnum) {
+		Accountnum = accountnum;
+	}
+	public String getAccounthost() {
+		return Accounthost;
+	}
+	public void setAccounthost(String accounthost) {
+		Accounthost = accounthost;
+	}
+	public int getBalance() {
+		return Balance;
+	}
+	public void setBalance(int balance) {
+		Balance = balance;
+	}
+	public int getMoney() {
+		return money;
+	}
+	public void setMoney(int money) {
+		this.money = money;
+	}
+	public String getAccountnum() {
+		return(this.Accountnum);
+	}
+}

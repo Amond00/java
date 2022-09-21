@@ -1,41 +1,44 @@
 package sec2;
+
 public class Student {
 	String name;
 	int kor;
 	int eng;
 	int mat;
 	
-	public Student(String name){this.name = name;}
-	public Student(String name, int kor, int eng){
-		this(name, 90, 80, 90);
-	}
-	public Student(String name, int kor, int eng, int mat){
+	public Student() { }
+	public Student(String name){ this.name = name; }
+	public Student(String name, int kor, int eng, int mat) {
 		this.name = name;		this.kor = kor;
-		this.eng = eng;			this.mat = mat;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public int getKor() {
-		return kor;
-	}
-	public void setKor(int kor) {
-		this.kor = kor;
-	}
-	public int getEng() {
-		return eng;
-	}
-	public void setEng(int eng) {
-		this.eng = eng;
-	}
-	public int getMat() {
-		return mat;
-	}
-	public void setMat(int mat) {
-		this.mat = mat;
+		this.eng = eng;		this.mat = mat;
 	}
 	
+	public int calcTot(){
+		int tot = kor+eng+mat; 
+		return tot;
+	}
+	public double calcAvg(){
+		double avg = (float) (Math.round((kor+eng+mat)/3*100)/100); 
+		return avg;
+	}
+	public String calcHak(){
+		String hak="";
+		double avg = this.calcAvg();
+		if(avg>=90) {
+			hak="A";
+		} else if(avg>=80){
+			hak="B";
+		} else if(avg>=70){
+			hak="C";
+		} else {
+			hak="D";
+		}
+		return hak;
+	}
+	public String calcRes(){
+		double avg = this.calcAvg();
+		String res = "불합격";
+		if(avg>=80) res="합격";
+		return res;
+	}
 }

@@ -1,0 +1,10 @@
+package sec2;
+
+public class Account {
+	String Accountnum;
+	String Accounthost;
+	int Balance;
+	int money;
+	public account() {}
+	
+}

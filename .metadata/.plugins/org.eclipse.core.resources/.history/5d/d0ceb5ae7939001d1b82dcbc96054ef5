@@ -1,0 +1,9 @@
+package sec2;
+
+public class Board {
+	int wrnum;
+	int wrtitle;
+	int wrcontent;
+	int wrhost;
+	int wrdate;
+}
