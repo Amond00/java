@@ -10,7 +10,9 @@ public class Car {
 	//[접근제한자] [수정자] 데이터타입  필드명;
 	
 	public Car() { } //기본 생성자로서 선언 또는 기술하지 않아도 자바에서 자동으로 생성됨(생략 가능)
-	public Car(String name){ this.name = name; }
+	public Car(String name){
+		this.name = name; 
+		}
 	public Car(String name, String fuel){
 		this(name, fuel, 1000); //현재 클래스의 생성자 함수 -> this()
 	}

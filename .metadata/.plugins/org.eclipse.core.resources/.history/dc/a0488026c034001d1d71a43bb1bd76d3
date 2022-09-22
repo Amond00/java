@@ -1,9 +1,0 @@
-package sec4;
-
-public class Ex4 {
-	public static void main(String[] args) {
-		int num1=0;
-		int num2=0;
-		while(nm1)
-	}
-}

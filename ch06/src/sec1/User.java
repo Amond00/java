@@ -1,15 +1,19 @@
 package sec1;
-
-public class UserController extends MemberController{
-	
-	//오버라이딩
-	@Override
-	public void join(String id, String password, String name){
-		System.out.println("아이디 : "+id);
+//Member는 부모(super) 클래스, User는 자식(sub) 클래스
+public class User extends Member {
+	private int visited;
+	public User(){ }
+	public User(String id, int visited){
+		
+	}
+	public User(String id, String pw) {
+		super(id, pw); //super함수는 부모의 생성자 함수
+	}
+	public User(String id, String pw, int visited){
+		super(id, pw); //super함수는 부모의 생성자 함수
+		this.visited = visited;
 	}
 	
-	//오버로딩
-	public void join(String id, String password){
-		System.out.println("비밀번호 : "+password);
-	}
+	
+	
 }

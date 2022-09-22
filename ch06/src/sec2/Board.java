@@ -1,75 +1,79 @@
 package sec2;
-import java.util.Scanner;
+
 import java.util.Date;
+
 public class Board {
-	Scanner sc = new Scanner(System.in);
-	private int wrnum;
-	private int wrtitle;
-	private String wrcontent;
-	private String wrhost;
-	private Date wrdate;
-	public Board(int wrnum, int wrtitle, String wrcontent, String wrhost, Date wrdate) {
-		this.wrnum = wrnum;
-		this.wrtitle = wrtitle;
-		this.wrcontent = wrcontent;
-		this.wrhost = wrhost;
-		this.wrdate = wrdate;
-	}
+   private int idx;
+   private String title;
+   private String content;
+   private String author;
+   private Date resdate;
+ 
+public int getIdx() {
+	return idx;
+}
 
-	public Scanner getSc() {
-		return sc;
-	}
+public void setIdx(int idx) {
+	this.idx = idx;
+}
 
-	public void setSc(Scanner sc) {
-		this.sc = sc;
-	}
+public String getTitle() {
+	return title;
+}
 
-	public int getWrnum() {
-		return wrnum;
-	}
+public void setTitle(String title) {
+	this.title = title;
+}
 
-	public void setWrnum(int wrnum) {
-		this.wrnum = wrnum;
-	}
+public String getContent() {
+	return content;
+}
 
-	public int getWrtitle() {
-		return wrtitle;
-	}
+public void setContent(String content) {
+	this.content = content;
+}
 
-	public void setWrtitle(int wrtitle) {
-		this.wrtitle = wrtitle;
-	}
+public String getAuthor() {
+	return author;
+}
 
-	public String getWrcontent() {
-		return wrcontent;
-	}
+public void setAuthor(String author) {
+	this.author = author;
+}
 
-	public void setWrcontent(String wrcontent) {
-		this.wrcontent = wrcontent;
-	}
+public Date getResdate() {
+	return resdate;
+}
 
-	public String getWrhost() {
-		return wrhost;
-	}
+public void setResdate(Date resdate) {
+	this.resdate = resdate;
+}
 
-	public void setWrhost(String wrhost) {
-		this.wrhost = wrhost;
+	public void boardWrite(int idx, String title, String content, String author, Date resdate){
+	   this.idx = idx;
+	   this.title = title;
+	   this.content = content;
+	   this.author = author;
+	   this.resdate = resdate;
+   }
+	public void boardUpdate(int idx, String title, String content){
+		if(idx==this.idx){
+			this.title = title;
+			this.content = content;
+		}
 	}
-
-	public Date getWrdate() {
-		return wrdate;
+	public void boardDelete(int idx){
+		if(idx==this.idx){
+			try {
+				this.finalize();
+				} catch (Throwable e) {
+					e.printStackTrace();
+				}
+		}
 	}
-
-	public void setWrdate(Date wrdate) {
-		this.wrdate = wrdate;
+	public void boardSearch(int idx){
+		if(idx==this.idx){
+			System.out.println(this.idx+"\t"+this.title+"\t"+this.content+"\t"+this.author+"\t"+this.resdate);
+		}
 	}
-
-	public String boardkWirte(){
-		int wrnum = sc.nextInt();
-		int wrtitle = sc.nextInt();
-		int wrcontent = sc.nextInt();
-		int wrhost = sc.nextInt();	
-		int wrdate = sc.nextInt();
-	}
-	
 }
