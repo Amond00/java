@@ -1,0 +1,13 @@
+package sec4;
+
+public class Member {
+	String name;
+	String id;
+	String password;
+	int age;
+	public Member(String name){ }
+	public void setName(String name){
+		this.name = name;
+	}
+	
+}

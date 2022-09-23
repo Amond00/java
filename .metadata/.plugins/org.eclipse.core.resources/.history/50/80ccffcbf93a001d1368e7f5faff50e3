@@ -1,0 +1,8 @@
+package sec4;
+
+public class Member {
+	private String name;
+	public Member(String name){ }
+	public void setName(String name){}
+	
+}

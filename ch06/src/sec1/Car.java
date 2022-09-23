@@ -28,6 +28,7 @@ public class Car {
 		this.model = model;
 		this.color = color;
 	}
+
 	
 	//[접근제한자] 클래스명([매개변수타입] [매개변수명],...) { 
 	//	this.필드명 = 매개변수명;
@@ -93,4 +94,10 @@ public class Car {
 	//	return 반환변수 또는 값;  -> 반환변수가 가지는 값이나 반환되는 값의 종류가 반환타입과 일치
 	//	반환을 하지 않는 경우는 반환타입이 void
 	//}
+	
+	static {
+		int a=10;
+		int b=20;
+		int c=30;
+	}
 }
