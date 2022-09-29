@@ -1,0 +1,12 @@
+package sec2;
+
+public class Throw {
+	public static void main(String[] args) {
+		String name = Null;
+		nullPassing(name);
+	}
+	static void nullPassing(String data){
+		System.out.println(data);
+		
+	}
+}

@@ -1,0 +1,11 @@
+package sec2;
+
+public class NestedClassEx {
+	public static void main(String[] args) {
+		Car mycar = new Car();
+		
+		Car.Tire tier = new C
+				
+		Car.Engine engine = new 
+	}
+}

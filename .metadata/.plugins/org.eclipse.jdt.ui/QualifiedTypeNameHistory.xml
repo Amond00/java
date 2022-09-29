@@ -3,4 +3,14 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="sec2.Student"/>
+<fullyQualifiedTypeName name="sec4.ElementaryStudent"/>
+<fullyQualifiedTypeName name="sec4.Student"/>
+<fullyQualifiedTypeName name="sec2.RemoteControl"/>
+<fullyQualifiedTypeName name="sec1.OuterClass"/>
+<fullyQualifiedTypeName name="sec1.OuterClass.Inner"/>
+<fullyQualifiedTypeName name="sec2.Car"/>
+<fullyQualifiedTypeName name="sec2.Car.Tire"/>
+<fullyQualifiedTypeName name="sec2.Car.Engine"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 </qualifiedTypeNameHistroy>

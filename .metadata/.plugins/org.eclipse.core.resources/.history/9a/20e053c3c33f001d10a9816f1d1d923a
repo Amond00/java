@@ -1,0 +1,10 @@
+package sec2;
+
+public class Throw {
+	public static void main(String[] args) {
+		String data;
+	}
+	void nullPassing(String data){
+		
+	}
+}

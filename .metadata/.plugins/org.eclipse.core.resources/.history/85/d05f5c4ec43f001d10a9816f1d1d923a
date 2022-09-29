@@ -1,0 +1,14 @@
+package sec2;
+
+public class Throw {
+	public static void main(String[] args) {
+		String name = null;
+		nullPassing(name);
+		int[] arr = new int[3];
+		arrayPssing(arr);
+	}	
+	static void nullPassing(String data) throws NullPointerException{
+		System.out.println(data);
+		
+	}
+}

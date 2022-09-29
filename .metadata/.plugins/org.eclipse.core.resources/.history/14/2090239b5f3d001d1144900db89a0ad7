@@ -1,0 +1,17 @@
+package sec1;
+
+public class Child extends Parent {
+	int field3;
+	String field4;
+	public Child() { }
+	public Child(int field1){ super(field1); }
+	public Child(int field1, String field2){
+		this(field1, field2, 100);
+	}
+	@Override
+	public int method2() {
+		return 1004;
+	}
+	public String method3() { return "문자열"; }
+	public void method4() { System.out.println("메소드4"); }
+}
