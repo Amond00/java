@@ -1,0 +1,24 @@
+package sec1;
+@FunctionalInterface
+interface Clac { //하나의 기능만 정의
+@FunctionalInterface
+	public void method1();
+}
+@FunctionalInterface
+interface Clac2 { 
+	public void method3(int x, int y);
+}
+@FunctionalInterface
+interface Clac3 {
+	public int method4(int x, int y);
+}
+@FunctionalInterface
+interface Clac4 {
+	public int method2(int x, int y);
+}
+public class Lambda2 {
+	public static void main(String[] args) {
+		Calc4 max = (x, y) -> x>y ? x : y;
+		int data = max.method4(20,18);
+	}
+}

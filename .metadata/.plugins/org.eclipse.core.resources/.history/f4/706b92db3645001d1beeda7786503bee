@@ -1,0 +1,25 @@
+package sec1;
+@FunctionalInterface
+interface Clac { //하나의 기능만 정의ㅏ
+	public void method1();
+}
+@FunctionalInterface
+interface Clac2 { 
+	public void method3(int x, int y);
+}
+@FunctionalInterface
+interface Clac3 {
+	public int method4(int x, int y);
+}
+@FunctionalInterface
+interface Clac4 {
+	
+}
+public class Lambda2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

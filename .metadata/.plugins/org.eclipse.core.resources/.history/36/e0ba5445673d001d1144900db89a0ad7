@@ -1,8 +1,0 @@
-package sec2;
-
-public class DmbPhone {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-}

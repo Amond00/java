@@ -1,0 +1,32 @@
+package sec1;
+
+public class Student {
+
+	public String getNum;
+
+	public void setNum(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setName(String next) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setJumsu(int nextInt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getJumsu() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

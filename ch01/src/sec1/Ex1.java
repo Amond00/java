@@ -18,6 +18,6 @@ public class Ex1 {	//Ex1:클래스명, { }:프로그램 블록의 시작과 끝
 		st1.setKor(100);
 		st1.setMat(100);
 		st1.setEng(80);
-		System.out.println("st1의 학생 이름은"+st1.getName()); 		//sysoutCtrl+space
+		System.out.println("st1의 학생 이름은 : "+st1.getName()); 		//sysoutCtrl+space
 	}
 }

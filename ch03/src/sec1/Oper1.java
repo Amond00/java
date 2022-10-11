@@ -10,7 +10,7 @@ package sec1;
 //int c=a*b; 피연산자가 2개니 이항연산
 //연산의 종류에 따라 산술, 논리, 비교, 비트(이진수연산), 증감(점점 증가,감소 등), 대입 연산 등이 있음
 //
-public class Oper1 {
+public class Oper1 {a
 	public static void main(String[] args) {
 		int a=20, b=30;
 		System.out.println(a); //

@@ -1,0 +1,10 @@
+package sec1;
+
+public class Student {
+
+	public void setNum(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
